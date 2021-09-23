@@ -5,11 +5,10 @@ html{
 body{
      height: 100%;
      width: 100%;
-
      }
   
    h3 {
-      text-indent: 16.5%;
+      text-indent: 17%;
       font-family: sans-serif;
       font-size: xx-large;
   }
@@ -17,92 +16,148 @@ body{
    .form1{
    width: 900px;
    height: 400px;
-   position: absolute;
-   left:18%;
-   top:20%;
-   flex-wrap: wrap;
-   justify-content: center;
+   position: relative;
+   left: 17%;
+   font-family: sans-serif;
+   font-size: x-small;
   }
   
    .form1 h1{
-     font-family: sans-serif;
-     font-size: medium;
+     font-size: large;
      top: 5%;
-     }
-
-   .form1 .eemail{
-     font-family: sans-serif;
-     font-size: x-small;
      }
 
    .form1 .email{
      width: 350px;
      height: 35px;
      border-radius: 8px;
-     border: 2px rgb(120,120,120) solid;
+     border: 1px rgb(120,120,120) solid;
       }
 
-   .form1 .pphone {
-     font-family: sans-serif;
-     top: 5%;
+   .form1 .phone {
+      width: 350px;
+      height: 35px;
+      border-radius: 8px;
+      border: 1px rgb(120,120,120) solid;
+     }
+ 
+   .form2{
+      width: 900px;
+      height: 400px;
+      position: relative;
+      left:17%;
+      top: -27%;
+      font-family: sans-serif;
+      font-size: x-small;
      }
 
-   
+   .form2 b {
+     font-size: large;
+      }
 
-  .objects img{
+   .form2 .fullname {
+     width: 350px;
+     height: 35px;
+     border-radius: 8px;
+     border: 1px rgb(120,120,120) solid;
+    } 
+
+   .form2 .address{
+      width: 350px;
+      height: 35px;
+      border-radius: 8px;
+      border: 1px rgb(120,120,120) solid;
+     }
+
+   .form2 .city{
+      width: 350px;
+      height: 35px;
+      border-radius: 8px;
+      border: 1px rgb(120,120,120) solid;
+     }
+
+   .form2 .countryy .country{
+      width: 170px;
+      height: 35px;
+      border-radius: 8px;
+      border: 1px rgb(120,120,120) solid;
+     }
+
+   .form2 .postalcode{
+      width: 170px;
+      height: 35px;
+      border-radius: 8px;
+      border: 1px rgb(120,120,120) solid;
+     }  
+
+     .objects {
+       width: 250px;
+       height: 350px;
+       position: relative;
+       top: -103%;
+       left: 50%;
+       overflow: hidden;
+       border-radius: 10px;
+       background-color: rgb(241, 237, 237);
+       border: 10px rgb(241,237,237) solid;
+       margin-top: 0px;
+       }
+
+     .objects .img1{
+      float: left;
+      position: relative;
+      top: 20px; left: 20px;
       width:100px;
       height:100px;
       border-radius:10px;
-  }
+     }
 
-   .contenedor-all .tarjeta-lados h1{
-      font-family: 'century gothic';
-      color: #BD36CA;
-  }
-  
-  .contenedor-all .tarjeta-lados p{
-    font-family: 'century gothic';
-    text-align:center;
-    font-size:10px;
-  }
-  .contenedor-all .tarjeta-lados h2{
-    font-family: 'century gothic';
-    text-align:center;
-    color: #BD36CA;
-    font-size:40px;
-  }
-  .contenedor-all .tarjeta-medio{
-    top: 6%;
-    position: relative;
-    background-color: white;
-    width: 230px;
-    height: 360px;
-    border-radius: 8px;
-    overflow:hidden;
-    text-align: center;
-    border: 1px rgb(85,85,85) solid;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-  }
-  
-  .contenedor-all .tarjeta-medio img{
+     .objects .img2{
+      float: left;
+      position: relative;
+      top: -10px; left: 20px;
       width:100px;
       height:100px;
-      border-radius:70px;
-  }
-  .contenedor-all .tarjeta-medio h1{
-    font-family: 'century gothic';
-    color: #BD36CA;
-  }
-  
-  .contenedor-all .tarjeta-medio p{
-    font-family: 'century gothic';
-    text-align:center;
-    font-size:10px;
-  }
-  .contenedor-all .tarjeta-medio h2{
-    font-family: 'century gothic';
-    text-align:center;
-    color: #BD36CA;
-    font-size:40px;
-  }
-  
+      border-radius:10px;
+     }
+
+     .objects h1{
+      position: relative;
+       top: -20px; left: 30px;
+       font-size: medium
+     }
+
+     .objects .p1 {
+       float: left;
+       position: relative;
+       top: -12%; left: 13%;
+       }
+          
+     .objects .p2 {
+       float: left;
+       position: relative;
+       top: -8%; left: 13%;
+       }
+
+     .objects .p2 {
+        float: left;
+        position: relative;
+       }
+
+       .checkboxx{
+        position:relative;
+        top: -91%;
+        }
+
+     body .button {
+       position: relative;
+       top: -90%; left: 28.5%;
+       height: 35px; width: 100px;
+       border-radius: 10px;
+       background-color: rgb(243, 139, 21);
+       border: 1px rgb(120,120,120) solid;
+     }
+      
+     al
+      
+   

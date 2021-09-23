@@ -7,6 +7,7 @@
 </head>
 
 <body>
+    <form method="POST" action="span">
      <h3>Checkout</h3>
      <div class="form1">
          <h1>Contact information</h1>
@@ -18,9 +19,10 @@
          <label for="phone" class="pphone">Phone</label><br>
          <input type="tel" class="phone" placeholder="Enter your phone..." required>
          <br><br><br>
-
-
-         <p>Shipping address</p>
+     </div>
+     
+     <div class="form2">
+         <b>Shipping address</b><br><br>
          <label for="fullname" class="ffullname">Full name</label><br>
          <input type="text" class="fullname" placeholder="Rodney Cotton" required>
          <br><br>
@@ -30,43 +32,47 @@
          <br><br>
 
          <label for="city" class="ccity">City</label><br>
-         <input type="tel" class="email" placeholder="Enter your phone..." required>
+         <input type="tel" class="city" placeholder="Your city.." required>
          <br><br>
             
          <div class="countryy">
              <label for="country" class="ccountry">Country</label><br>
-             <select class="country" placeholder="Your country..." >
+             <select class="country" placeholder="Your country..." required>
                  <option value="Deutchland">Deutchland</option>
                  <option value="Ecuador">Ecuador</option>
                  <option value="India">India</option>
-        
-         </div> <br>
+         </div>
 
          <label for="postalcode" class="ppostcode">Postal code</label>
          <input type="number" class="postalcode" placeholder="Your postal Code" maxlength="99999" minlength="00000" required>
-         <br><br>
      </div>
 
      <div class="objects">
-         <img src="./img/backpack.jpg">
-         <p>Backbag</p>
-         <h4>$54.99</h4>
-         <del>$94.99</del><br>
-
-         <img src="./img/shoes.jpg">
-         <p>Shoes</p>
-         <h5>$74.99</h5> 
-         <del>$124.99</del>  
-         <br><br><br><br>
+         <img src="./img/backpack.jpg" class="img1"><br><br><br>
+         <h1>Backbag</h1> <br>
+         <p class="p1">$54.99 <del>$94.99</del></p>
+         <br><br><br><br><br><br>
+        
+         <img src="./img/shoes.jpg" class="img2">
+         <h1>Shoes</h1>
+         <p class="p2">$74.99 <del>$124.99</del></p>
+         <br><br><br><br><br><br><br><br>
          
          <hr>
-         Shipping $19
-         <hr>
-         Total $148.98
+         <p class="shipping">Shipping $19</p> 
+         <hr class="total">
+         <p class="total">Total $148.98</p>
      </div>
-     <br>
+
      <div class="checkboxx">
          <input type="checkbox" id="savethis"> Save this information for next time
      </div>
+
+     <input type="submit" value=Continue class="button">
+     <div class="alert">
+         <span class="span" onclick=""></span>
+     </div>
+     
+    </form>
 </body>
 </html>
