@@ -8,34 +8,56 @@ body{
 
      }
   
-  h3 {
-      text-indent: 17%;
-      font-family:;
+   h3 {
+      text-indent: 16.5%;
+      font-family: sans-serif;
+      font-size: xx-large;
   }
 
-  .form1{
+   .form1{
    width: 900px;
    height: 400px;
    position: absolute;
    left:18%;
-   top:9%;
+   top:20%;
    flex-wrap: wrap;
    justify-content: center;
   }
   
-  .form1 h1{
-     font-family: Arial;
+   .form1 h1{
+     font-family: sans-serif;
+     font-size: medium;
      top: 5%;
-  }
-  
-  .contenedor-all .tarjeta-lados img{
+     }
+
+   .form1 .eemail{
+     font-family: sans-serif;
+     font-size: x-small;
+     }
+
+   .form1 .email{
+     width: 350px;
+     height: 35px;
+     border-radius: 8px;
+     border: 2px rgb(120,120,120) solid;
+      }
+
+   .form1 .pphone {
+     font-family: sans-serif;
+     top: 5%;
+     }
+
+   
+
+  .objects img{
       width:100px;
       height:100px;
-      border-radius:70px;
+      border-radius:10px;
   }
-  .contenedor-all .tarjeta-lados h1{
-    font-family: 'century gothic';
-    color: #BD36CA;
+
+   .contenedor-all .tarjeta-lados h1{
+      font-family: 'century gothic';
+      color: #BD36CA;
   }
   
   .contenedor-all .tarjeta-lados p{
